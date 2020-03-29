@@ -32,7 +32,7 @@ public class MonkeyTypewriter {
         for (int i = 0; i < 5; i++) {
             monkey = new Thread(unsafeCopier);
             unsafeThreads.add(monkey);
-            unsafeThreads.get(i).setName("Monkey "+i);
+            unsafeThreads.get(i).setName("Monkey " + i );
             unsafeThreads.get(i).start();
         }
 
